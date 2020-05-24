@@ -1,0 +1,39 @@
+header{
+    width: 100% !important; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0; 
+    z-index: 999 !important;
+    /* overflow: hidden !important; */
+    background-color: #ffffff;
+}
+.header-nav{
+    /* z-index: 999999 !important; */
+    /* overflow: hidden !important;   */
+
+}
+
+.app-logo{
+    width: 30px !important;
+    height: 30px !important;
+    float: left;
+ }
+
+ 
+
+@media (prefers-reduced-motion: no-preference) {
+    .app-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
