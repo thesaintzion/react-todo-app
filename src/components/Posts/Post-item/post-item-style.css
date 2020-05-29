@@ -1,0 +1,28 @@
+.text-overflow{
+ font-size: 13px;
+ color: gray;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.post:hover{
+    cursor: pointer;
+}
+.post:hover strong{
+    color: #08e6c2
+}
+
+
+.post button{
+    /* display:none; */
+}
+.post:hover button{
+    display:block;
+    animation-name: fadeInRight;
+    
+    /* color: red; */
+}

@@ -7,7 +7,6 @@ state = {
     searchValue: '',
     amount: 10,
     searchInput: ''
-
 }
 
 // when you start typing.. this function funs
@@ -27,6 +26,7 @@ onSubmitForm = (e) =>{
 }
     render(){
         
+
         return(
 <Fragment>
 <h5 className="text-cneter">Search Img </h5>
@@ -34,7 +34,8 @@ onSubmitForm = (e) =>{
  <select className="form-control col-1" placeholder="Search Images" name="amount"  value={this.state.amount} onChange={this.onAmountChange}>
 <option value={10}>10</option>
 <option value={20}>20</option>
-<option value={30}>30</option>
+
+ <option value={30}>30</option>
 <option value={40}>40</option>
 <option value={50}>50</option>
      </select>

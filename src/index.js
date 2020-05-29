@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import './assets/css/animate.css';
+import './assets/css/font-awesome.min.css';
 import './index.css';
-import App from './App';
+import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter} from 'react-router-dom';
 

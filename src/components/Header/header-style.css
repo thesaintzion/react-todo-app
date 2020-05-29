@@ -8,15 +8,23 @@ header{
     /* overflow: hidden !important; */
     background-color: #ffffff;
 }
-.header-nav{
-    /* z-index: 999999 !important; */
-    /* overflow: hidden !important;   */
+
+.app-nav a.active{
+/* border-bottom: 4px solid #08e6c2; */
+border-bottom: 4px solid #08e6c2;
+color: #08e6c2 !important
 
 }
 
+.app-nav a:hover{
+    color: #08e6c2 !important;
+    cursor: pointer;
+    }
+    
+
 .app-logo{
-    width: 30px !important;
-    height: 30px !important;
+    width: 50px !important;
+    height: 50px !important;
     float: left;
  }
 
