@@ -17,7 +17,7 @@ color: #08e6c2 !important
 }
 
 .app-nav a:hover{
-    color: #08e6c2 !important;
+    /* color: #08e6c2 !important; */
     cursor: pointer;
     }
     

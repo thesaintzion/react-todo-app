@@ -7,7 +7,7 @@ class About extends React.Component{
     render(){
         return(
 <Fragment>
-    <div className="animated fadeInLeft d-flex justify-content-center  app" >
+    <div className="animated fadeInLeft d-flex justify-content-center align-items-center app" style={{height: '100vh'}} >
   <div className="" style={{paddingTop: '200px'}}>
     <div className="container">
       <h1 className="bg-green text-white">ABOUT</h1>
@@ -17,8 +17,6 @@ class About extends React.Component{
 </div>
 </Fragment>
         );
-   
-
       
     }
 }

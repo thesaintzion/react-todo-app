@@ -83,9 +83,8 @@ addPost = (post) => {
   });
 }
     render(){
-      // Delete post
-    
-
+     
+  
         return(
   <div className="posts container">
      <div className="row">

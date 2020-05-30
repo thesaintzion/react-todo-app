@@ -1,14 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-class Users extends Component {
+class Users extends React.Component {
     render() {
-        if(this.props.users.length > 0){
+      
+        if(this.props.users?.length > 0){
            return (this.props.users.map(user => {
                 console.log('user', user);
               return( 
                   <React.Fragment>
-                      <div className="mb-4">
-              <p className="mb-0" key={user._id}>{user.firstname} {user.lastname}</p>
+                      <div className="mb-4" key={user._id}>
+              <p className="mb-0">{user.firstname} {user.lastname}</p>
               <small className="color-green">{user.email}</small>
               </div>
               </React.Fragment>
